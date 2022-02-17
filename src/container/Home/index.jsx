@@ -1,11 +1,13 @@
-import Banner from "./component/Banner/index";
+import Banner from './component/Banner/';
+import Courses from './component/Courses/';
 
-const Home = ()=>{
+const Home = () => {
   return (
     <div>
-      <Banner/>
+      <Banner />
+      <Courses />
     </div>
-  )
+  );
 }
 
 export default Home;
